@@ -193,11 +193,11 @@ python-dateutil==2.8.1
     # via
     #   mythx-models
     #   pythx
-python-dotenv==0.16.0
+python-dotenv>=0.16.0
     # via -r requirements.in
 pythx==1.6.1
     # via -r requirements.in
-pyyaml==5.4.1
+pyyaml>=5.4.1
     # via -r requirements.in
 requests==2.28.1
     # via
