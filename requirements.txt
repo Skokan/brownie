@@ -248,7 +248,7 @@ wcwidth==0.2.5
     # via prompt-toolkit
 web3==5.31.1
     # via -r requirements.in
-websockets==9.1
+websockets>=10.0.0,<11
     # via web3
 wheel==0.37.1
     # via vyper
