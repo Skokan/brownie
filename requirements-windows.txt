@@ -331,7 +331,7 @@ wcwidth==0.2.5
     # via
     #   -r requirements.txt
     #   prompt-toolkit
-web3==5.30.0
+git+https://github.com/Skokan/web3.py.git@v5websockets#egg=web3 # web3.py version 5.31.0 with websockets 10 bumped up to version 10
     # via -r requirements.txt
 websockets>=10.0.0,<11
     # via

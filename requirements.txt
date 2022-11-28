@@ -246,7 +246,7 @@ vyper==0.3.7
     # via -r requirements.in
 wcwidth==0.2.5
     # via prompt-toolkit
-web3==5.31.1
+git+https://github.com/Skokan/web3.py.git@v5websockets#egg=web3 # web3.py version 5.31.0 with websockets 10 bumped up to version 10
     # via -r requirements.in
 websockets>=10.0.0,<11
     # via web3
